@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="projetodetexto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&display=swap" rel="stylesheet">
+    <title>Projeto de Texto</title>
 </head>
 <body>
     <div id="external">
-        <h1>PROJETO DE TEXTO</h1>
+        <h1 id="h1-external">PROJETO DE TEXTO</h1>
         <div id="internal">
             <form action="" method="post">
                 <section id="header">
@@ -23,58 +27,71 @@
                 </section>
                 <section id="abertura">
                     <label for="estrategia-de-abertura">ESTRATÉGIA DE ABERTURA</label>
-                    <input type="text">
+                    <br>
+                    <textarea name="" id="texto-abertura" cols="125" rows="30"></textarea>
                 </section>
                 <section id="problema">
                     <label for="problema">PROBLEMA</label>
-                    <input type="text">
+                    <br>
+                    <textarea name="" id="texto-problema" cols="125" rows="30"></textarea>
                 </section>
                 <section id="causas">
                     <div id="causa-1">
                         <label for="causa-1">CAUSA 1</label>
-                        <input type="text">
+                        <br>
+                        <textarea name="texto-causa1" id="" cols="55" rows="20"></textarea>
                     </div>
                     <div id="causa-2">
                         <label for="causa-2">CAUSA 2</label>
-                        <input type="text">
+                        <br>
+                        <textarea name="texto-causa1" id="" cols="55" rows="20"></textarea>
                     </div>
                 </section>
                 <section id="repertorios">
                     <div id="repertorio-1">
                         <label for="repertorio-1">REPERTÓRIO PARA EMBASAR</label>
-                        <input type="text">
+                        <textarea name="texto-causa1" id="" cols="55" rows="20"></textarea>
                     </div>
                     <div id="repertorio-2">
                         <label for="repertorio-2"> REPERTÓRIO PARA EMBASAR</label>
-                        <input type="text">
+                        <textarea name="texto-causa1" id="" cols="55" rows="20"></textarea>
                     </div>
                 </section>
-                <section id="intervencao">
-                    <label for="proposta-de-intervenção">PROPOSTA DE INTERVENÇÃO</label>
-                    <div id="agente">
-                        <label for="agente">AGENTE:</label>
-                        <input type="text">
-                    </div>
-                    <div id="acao">
-                        <label for="acao">AÇÃO:</label>
-                        <input type="text">
-                    </div>
-                    <div id="modo">
-                        <label for="modo">MODO:</label>
-                        <input type="text">
-                    </div>
-                    <div id="finalidade">
-                        <label for="finalidade">FINALIDADE / EFEITO:</label>
-                        <input type="text">
-                    </div>
-                    <div id="detalhamento">
-                        <label for="detalhamento">DETALHAMENTO:</label>
-                        <input type="text">
-                    </div>
+                    <label for="proposta-de-intervenção" id="proposta-de-intervencao">PROPOSTA DE INTERVENÇÃO</label>
+                    <section id="intervencao">
+                                <div id="agente">
+                                    <label for="agente">AGENTE:</label>
+                                    <br>
+                                    <textarea name="" id="" cols="30" rows="3"></textarea>
+                                </div>
+                                <div id="acao">
+                                    <label for="acao">AÇÃO:</label>
+                                    <br>
+                                    <textarea name="" id="" cols="30" rows="3"></textarea>
+                                </div>
+                                <div id="modo">
+                                    <label for="modo">MODO:</label>
+                                    <br>
+                                    <textarea name="" id="" cols="30" rows="3"></textarea>
+                            </div>
+                        <div id="finalidade">
+                            <label for="finalidade">FINALIDADE / EFEITO:</label>
+                            <br>
+                            <textarea name="" id="" cols="30" rows="3"></textarea>
+                            <div id="detalhamento">
+                            <label for="detalhamento">DETALHAMENTO:</label>
+                            <br>
+                            <textarea name="" id="" cols="30" rows="3"></textarea>
+                     </div>
                 </section>
+                <div id="fechamento">
+                    <label for="fechamento">FECHAMENTO</label>
+                    <br>
+                    <textarea name="" id="texto-abertura" cols="125" rows="30"></textarea>
+                </div>
             </form>
         </div>
-        <input type="submit" value="SALVAR">
+        <input id="submit-button" type="submit" value="SALVAR">
     </div>
 </body>
 </html>

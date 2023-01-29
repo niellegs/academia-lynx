@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'ds-digital';
+    src: url(fontes\DS-DIGI.TTF);
+}
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #7EC9FF;
+    background-color: black;
+}
+
+#external {
+    font-family: 'ds-digital';
+}
+
+#h1-external {
+    float: right;
+    padding-right: 5rem;
+    margin-top: -0.05rem;
+    font-size: 4rem;
+    transform: translate(0rem, -6rem);
+}
+
+#internal {
+    font-family: 'Anonymous Pro', monospace;
+    border: 2px solid #7EC9FF;
+    margin-top: 10rem;
+    width: 85rem;
+    margin-left: 5rem;
+}
+
+#header {
+    display: flex;
+    padding-left: 5rem;
+    width: 80rem;
+}
+
+#data {
+   padding-left: 50rem;
+}
+
+#abertura label {
+   padding-left: 37rem;
+}
+
+#abertura textarea {
+    margin-top: 5rem;
+    margin-left: 4rem;
+    margin-bottom: 5rem;
+}
+
+#problema textarea{
+    margin-top: 5rem;
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+}
+
+#problema label {
+    padding-left: 43rem;
+    padding-top: 10rem;
+}
+
+#causas {
+    display: flex;
+    padding-left: 4rem;
+    margin-bottom: 3rem;
+}
+
+
+#causa-2 {
+    padding-left: 4rem;
+}
+
+#repertorios {
+    display: flex;
+    padding-left: 4rem;
+    margin-bottom: 4rem;
+}
+
+#intervencao {
+    margin-top: 5rem;
+    margin-right: 5rem;
+    padding-left: 5rem;
+    column-count: 2;
+    column-gap: 5rem;
+}
+
+#proposta-de-intervencao {
+    padding-left: 35rem;
+    margin-bottom: 2rem;
+}
+
+#fechamento {
+    padding-left: 4rem;
+    padding-top: 10rem;
+    padding-bottom: 4rem;
+}
+
+#submit-button {
+    float: right;
+    margin: 5rem 5rem 5rem 5rem;
+    background-color: rgba(126,201,255, 0.1);
+    
+    height: 5rem;
+    font-family: 'ds-digital';
+    font-size: 2.5rem;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+textarea {
+    background-color: black;
+    color: #7EC9FF;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 1.05rem;
+    padding: 2rem 2rem 2rem 2rem;
+    border-color: #7EC9FF;
+}
+input {
+    background-color: black;
+    color: #7EC9FF;
+    border-color: #7EC9FF;
+}
